@@ -1,0 +1,42 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 382, in script
+    menu choice:
+IOError: Couldn't find file 'None.wav'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 382, in script
+    menu choice:
+  File "D:\Rovers_Png\Renpy\renpy-7.3.2-sdk\renpy\ast.py", line 1626, in execute
+    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
+  File "D:\Rovers_Png\Renpy\renpy-7.3.2-sdk\renpy\exports.py", line 983, in menu
+    rv = renpy.store.menu(new_items)
+  File "D:\Rovers_Png\Renpy\renpy-7.3.2-sdk\renpy\exports.py", line 1217, in display_menu
+    rv = renpy.ui.interact(mouse='menu', type=type, roll_forward=roll_forward)
+  File "D:\Rovers_Png\Renpy\renpy-7.3.2-sdk\renpy\ui.py", line 295, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\Rovers_Png\Renpy\renpy-7.3.2-sdk\renpy\display\core.py", line 2699, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, **kwargs)
+  File "D:\Rovers_Png\Renpy\renpy-7.3.2-sdk\renpy\display\core.py", line 3377, in interact_core
+    renpy.audio.audio.periodic()
+  File "D:\Rovers_Png\Renpy\renpy-7.3.2-sdk\renpy\audio\audio.py", line 1023, in periodic
+    six.reraise(exc[0], exc[1], exc[2])
+  File "D:\Rovers_Png\Renpy\renpy-7.3.2-sdk\renpy\audio\audio.py", line 1001, in periodic_thread_main
+    periodic_pass()
+  File "D:\Rovers_Png\Renpy\renpy-7.3.2-sdk\renpy\audio\audio.py", line 942, in periodic_pass
+    c.periodic()
+  File "D:\Rovers_Png\Renpy\renpy-7.3.2-sdk\renpy\audio\audio.py", line 420, in periodic
+    topf = load(self.file_prefix + filename + self.file_suffix)
+  File "D:\Rovers_Png\Renpy\renpy-7.3.2-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn)
+  File "D:\Rovers_Png\Renpy\renpy-7.3.2-sdk\renpy\loader.py", line 576, in load
+    raise IOError("Couldn't find file '%s'." % name)
+IOError: Couldn't find file 'None.wav'.
+
+Windows-8-6.2.9200
+Ren'Py 7.3.2.320
+Mars Rover Spirit 1.0
+Sat Aug 31 11:51:34 2019
