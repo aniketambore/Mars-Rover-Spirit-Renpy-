@@ -17,19 +17,33 @@ Customisation
 
 About the files and folder contains in the game folder
     1. Annanoid_sounds :- It contains the voice effect of character Annanoid. I've given specific name to those audio files.
+    
     2. cache :- This folder is made by Renpy .
+    
     3. gui :- gui folder contains each and every image file of gui there it also contains different font which was used in the game.
+    
     4. images :- images folder contains each and every image file of the game.
+    
     5. Music :- This folder contains each and every music which was used in the game.
+    
     6. Rover_sounds :- It contains the voice effect of character Spirit. I've given specific name to those audio files.
+    
     7. saves :- This folder is made by Renpy .
+    
     8. tl :- This folder is made by Renpy .
+    
     9. None :- This folder is made by Renpy .
+    
     10. atl.rpy :- This file contains the Animation and Transform Language program.
+    
     11. gui.rpy :- This file contains the gui colors and fonts and the main_menu background and proper allignment.
+    
     12. image.rpy :- In this file each and every image is defined.
+    
     13. options.rpy :- This file contains mostily the build distribution part. The game name and version was defined in this file.
+    
     14. screens.rpy :- This file contains the proper allignment of each and every gui buttons also there respective name was defined in this file.
+
 ****15. script.rpy :- This file is the main file which holds the each and every command of game.    
 
     
