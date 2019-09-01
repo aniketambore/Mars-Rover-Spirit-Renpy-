@@ -16,6 +16,7 @@ Use Cases
 Customisation
 
 About the files and folder contains in the game folder
+    
     1. Annanoid_sounds :- It contains the voice effect of character Annanoid. I've given specific name to those audio files.
     
     2. cache :- This folder is made by Renpy .
