@@ -2,7 +2,7 @@
 
 I would call this project an interactive comic rather than a visual novel or game. I spent much more time on development than i thought. I hope you enjoy it. 
 
-This is a super generous gmae.
+This is a super generous game.
 
     I've uploaded each and every file in the correct format which was used in the original game as archieve just because you can checkout the whole thing easily.
 
