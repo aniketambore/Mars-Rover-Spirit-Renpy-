@@ -44,8 +44,8 @@ About the files and folder contains in the game folder
     13. options.rpy :- This file contains mostily the build distribution part. The game name and version was defined in this file.
     
     14. screens.rpy :- This file contains the proper allignment of each and every gui buttons also there respective name was defined in this file.
-
-****15. script.rpy :- This file is the main file which holds the each and every command of game.    
+    
+    15. script.rpy :- This file is the main file which holds the each and every command of game.    
 
     
 
